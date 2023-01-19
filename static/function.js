@@ -25,16 +25,13 @@ test.onclick = function (){
     
        
        r.innerHTML=" "+n+" X "+nTwo+" = "+calc;
+       
 
     
     }
     
 
-
- 
-
-*/
-        
+*/    
 
 var calc = n * nTwo;
     
@@ -43,6 +40,10 @@ r.innerHTML=" "+n+" X "+nTwo+" = "+calc;
 
 }
 
-for(var i = 0;i<10;i++){
-console.log(n*i);
+
+
+for(var i = 0;i<11;i++){
+var calc= 30 * i;
+console.log("30 x "+i+" = "+calc);
+
 }
